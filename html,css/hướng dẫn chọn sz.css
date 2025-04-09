@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.introduction{
+    
+        margin: 50px auto; /* Tạo khoảng cách trên dưới và căn giữa */
+        width: 80%; /* Chiều rộng của phần giới thiệu */
+      
+}
+
+.intro h1{
+    margin-bottom: 20px;
+}
+
+.intro h5{
+    font-style: italic;
+}
+.intro p{
+     font-size: 14px;
+     text-align: center;
+     margin-top: 2%;
+     margin-bottom: 20px;
+}
+
+.introduction img{
+    max-width:100% ;
+}
+
+.img{
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.B1 p{
+    margin-top: 6%;
+    margin-bottom: 20px;
+}
+
+.B2 p{
+    margin-top: 6%;
+    margin-bottom: 20px; 
+}
+.B3 p{
+    margin-top: 10%;
+    margin-bottom: 20px; 
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}

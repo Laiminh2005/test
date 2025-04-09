@@ -1,0 +1,502 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.name__shop a{
+    text-decoration: none;
+    color: red;
+}
+.name__shop a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+
+.carousel-itemactive{
+    width: 1050px;
+    margin-left: 100px;
+}
+.header{
+    background-color:red;
+    color: white;
+    text-align: center;
+    text-transform:uppercase ;
+}
+
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+.name__shop{
+    margin-left: 50px;
+    color: rgb(184, 49, 49);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+.info span{
+
+    margin-right: 15px;
+}
+
+.sale{
+    color: red;
+}
+
+
+.name__shop{
+    margin-left: 50px;
+    color: red;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.info li{
+
+    margin-right: 15px;
+}
+
+.sale{
+    color: red;
+}
+
+.header3{
+    margin-right:30px ;
+}
+
+.header3 .bx-search-alt{
+    margin-right: 40px;
+}
+
+/* Hiệu ứng chuyển động */
+.header3:hover span {
+    transform: translateX(10px);
+    color: black;
+  }
+  
+  .header3 i:hover {
+    transform: rotate(15deg) scale(1.2);
+    color: #ff5722;
+  }
+
+
+
+.product__1{
+    width: 150px;
+    margin-right: 20px;
+
+}
+.product__1 img{
+    width: 150px;
+    
+}
+.product__1 p{
+    font-size: 12px;
+    margin: 0;
+    padding-top: 20px;
+}
+.product__1 .number b{
+    color: red;
+}
+.product__1 .number span{
+    color:darkgray;
+    text-decoration: line-through;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: none;
+    color: rgb(193, 82, 82);
+}
+
+.btn button{
+    padding: 8px;
+    margin-top: 12px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+
+.end{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+ }
+.Showroom img{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.Showroomơ{
+    padding-left: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.Showroom span{
+    font-size: 15spx;
+    
+    
+}
+.Showroom a {
+    color: gray;
+    
+}
+.Showroom a:hover{
+    color: red;
+}
+
+.FANPAGE img {
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon__end i {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+
+
+
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Menu chính */
+#menu ul {
+    background-color: #ffffff;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border-bottom: 2px solid #f0f0f0;
+    color: #000;
+}
+
+#menu ul li {
+    display: inline-block;
+    width: 150px; /* Tăng chiều rộng để hiển thị rõ */
+    height: 50px;  
+    line-height: 50px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: #000; /* Chữ đen */
+}
+
+/* Hiệu ứng hover menu cấp 1 */
+#menu ul li:hover {
+    background-color: #eb7777;
+    color: #fff;
+}
+
+/* Menu con cấp 2 */
+#menu ul li .submenugt,
+#menu ul li .submenudt,
+#menu ul li .submenunckh {
+    display: none;
+    position: absolute;
+    top: 50px; /* Xuất hiện dưới menu chính */
+    left: 0;
+    background-color: #ffffff;
+    width: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f0f0f0;
+    z-index: 1000;
+    
+    
+}
+
+
+/* Hiển thị menu cấp 2 khi hover */
+#menu ul li:hover .submenugt,
+#menu ul li:hover .submenudt,
+#menu ul li:hover .submenunckh {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Mục trong menu con cấp 2 */
+#menu ul li .submenugt li,
+#menu ul li .submenudt li,
+#menu ul li .submenunckh li {
+    text-align: left;
+    padding: 10px;
+    height: auto;
+    line-height: normal;
+    color: #000; /* Chữ đen */
+}
+
+#menu ul li .submenugt li:hover,
+#menu ul li .submenudt li:hover,
+#menu ul li .submenunckh li:hover {
+    background-color: #ef7e7e98;
+    color: #000;
+
+}
+
+/* Menu con cấp 3 */
+.submenugt li .shoe,
+.submenugt li .shoe-1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 150px; /* Đẩy sang bên phải */
+    background-color: #ffffff;
+    width: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f0f0f0;
+    text-decoration: none;
+    color: #000;
+}
+.submenugt li .shoe a{
+    text-decoration: none;
+    color: #000;
+}
+
+.submenugt li .shoe-1  a{
+    text-decoration: none;
+    color: #000;
+}
+
+.submenugt li:hover .shoe,
+.submenugt li:hover .shoe-1 {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Hiệu ứng chuyển động */
+#menu ul li .submenugt,
+#menu ul li .submenudt,
+#menu ul li .submenunckh,
+.submenugt li .shoe,
+.submenugt li .shoe-1 {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Thiết kế chung */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+
+
+
+.carousel-item {
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;   }
+
+.new{
+    text-align: center; /* Căn giữa văn bản */
+    font-weight: bold; /* In đậm */
+    font-size: 30px; /* Cỡ chữ, bạn có thể điều chỉnh theo ý muốn */
+    color: #333; /* Màu chữ, tùy chỉnh */
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.new p {
+        font-size: 17px;
+        text-decoration: underline;
+        color: #333; /* Thay đổi màu nếu muốn */
+        font-weight:normal;
+}
+.new a{
+    font-size: 15px;
+    color: #333; /* Thay đổi màu nếu muốn */
+    font-weight:normal;
+    margin-top: 10px ;
+}
+.product_shoe{
+    text-align: center; /* Căn giữa văn bản */
+    font-weight: bold; /* In đậm */
+    font-size: 30px; /* Cỡ chữ, bạn có thể điều chỉnh theo ý muốn */
+    color: #333; /* Màu chữ, tùy chỉnh */
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.product_shoe p{
+font-size: 17px;
+        text-decoration: underline;
+        color: #333; /* Thay đổi màu nếu muốn */
+        font-weight:normal;
+}
+
+
+
+.product{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.product1{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.hint{
+ 
+        text-align: center; /* Căn giữa */
+        font-weight: bold;  /* In đậm */
+        font-size: 24px;    /* Điều chỉnh kích thước chữ nếu cần */
+        margin: 20px 0;     /* Khoảng cách trên và dưới */
+        margin-top: 200px;
+
+}
+ 
+.hint-section {
+    text-align: center; /* Căn giữa nội dung */
+  }
+  
+  .hint-section span {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  .hint-section hr {
+    border: none; /* Ẩn đường viền mặc định của hr */
+    height: 2px; /* Đặt độ dày cho đường kẻ */
+    background-color: #cccccc00; /* Đặt màu cho đường kẻ */
+    width: 80%; /* Đặt độ rộng cho đường kẻ */
+    margin: 20px auto; /* Căn giữa và tạo khoảng cách */
+  }
+
+.SALE{
+    text-align: center; /* Căn giữa văn bản */
+    font-weight: bold; /* In đậm */
+    font-size: 30px; /* Cỡ chữ, bạn có thể điều chỉnh theo ý muốn */
+    color: #333; /* Màu chữ, tùy chỉnh */
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.SALE p{
+    font-weight: normal;
+    color: red;
+    font-size: 25px; /* Cỡ chữ, bạn có thể điều chỉnh theo ý muốn */
+    
+}
+
+.SALE p{
+    /* Các thuộc tính CSS khác để định dạng */
+    animation: shake 1s ease-in-out infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
+
+  .Sale a {
+    color: red;
+    text-decoration: none;
+  }
+
+  .Sale a:hover{
+    text-decoration: none;
+    color: #000;
+  }
+
+  #menu-item-new{
+    text-decoration: none;
+    color: #000;
+  }
+  
+  #menu-item-sp{
+    text-decoration: none;
+    color: #000;
+  }
+
+  #menu-item-bst{
+    text-decoration: none;
+    color: #000;
+  }
+
+  .body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 8px 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-column a{
+    color:#333;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #333;
+}

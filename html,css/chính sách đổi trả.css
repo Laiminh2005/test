@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.introduction{
+    
+        margin: 50px auto; /* Tạo khoảng cách trên dưới và căn giữa */
+        width: 80%; /* Chiều rộng của phần giới thiệu */
+      
+}
+
+.intro h1{
+    margin-bottom: 20px;
+}
+
+.intro h5{
+    font-style: italic;
+}
+.intro p{
+     font-size: 14px;
+     text-align: center;
+     margin-top: 2%;
+     margin-bottom: 20px;
+}
+
+.introduction img{
+    max-width:100% ;
+}
+
+.img{
+    max-width: 100%;
+    margin-top: 40px;
+}

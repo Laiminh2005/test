@@ -1,0 +1,50 @@
+.box-content{
+    text-align: center; /* Căn giữa văn bản */
+   
+    font-size: 15px; /* Cỡ chữ, bạn có thể điều chỉnh theo ý muốn */
+    color: #333; /* Màu chữ, tùy chỉnh */
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.product__2{
+    width: 170px;
+    margin-right: 20px;
+
+}
+.product__2 img{
+    width: 170px;
+}
+.product__2 p{
+    font-size: 12px;
+    margin: 0;
+    padding-top: 20px;
+}
+.product__2 .number b{
+    color: red;
+}
+.product__2 .number span{
+    color:darkgray;
+    text-decoration: line-through;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.product-bst{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.carousel-inner img{
+    width: 150px; /* Đặt chiều rộng của hình ảnh khớp với chiều rộng của banner */
+    height: 400px; /* Đặt chiều cao của hình ảnh khớp với chiều cao của banner */
+}
+.submenudt a{
+    text-decoration: none;
+    color: #000;
+}
+.submenudt a:hover{
+    text-decoration: none;
+    color: black;
+}
